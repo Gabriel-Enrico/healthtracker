@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0102A96C2DD3BCFB008A2ED1 /* HealthTrackerAliceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102A96B2DD3BCFB008A2ED1 /* HealthTrackerAliceApp.swift */; };
+		0102A96E2DD3BCFB008A2ED1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102A96D2DD3BCFB008A2ED1 /* ContentView.swift */; };
+		0102A9702DD3BCFC008A2ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0102A96F2DD3BCFC008A2ED1 /* Assets.xcassets */; };
+		0102A9732DD3BCFC008A2ED1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0102A9722DD3BCFC008A2ED1 /* Preview Assets.xcassets */; };
+		0102A97A2DD5050D008A2ED1 /* MonitoramentoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102A9792DD5050D008A2ED1 /* MonitoramentoView.swift */; };
+		0102A97C2DD7A3B4008A2ED1 /* PacienteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102A97B2DD7A3B4008A2ED1 /* PacienteView.swift */; };
+		0102A97E2DD7A48F008A2ED1 /* RecomendacaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102A97D2DD7A48F008A2ED1 /* RecomendacaoView.swift */; };
+		0102A9802DD7BE0A008A2ED1 /* FichasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102A97F2DD7BE0A008A2ED1 /* FichasView.swift */; };
+		0102A9822DD7C1AF008A2ED1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102A9812DD7C1AF008A2ED1 /* Model.swift */; };
+		0102A9882DD7C38C008A2ED1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102A9872DD7C38C008A2ED1 /* ViewModel.swift */; };
+		01E9949E2DDE51DD004DC82B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9949D2DDE51DD004DC82B /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0102A9682DD3BCFB008A2ED1 /* HealthTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0102A96B2DD3BCFB008A2ED1 /* HealthTrackerAliceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTrackerAliceApp.swift; sourceTree = "<group>"; };
+		0102A96D2DD3BCFB008A2ED1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0102A96F2DD3BCFC008A2ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0102A9722DD3BCFC008A2ED1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0102A9792DD5050D008A2ED1 /* MonitoramentoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoramentoView.swift; sourceTree = "<group>"; };
+		0102A97B2DD7A3B4008A2ED1 /* PacienteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacienteView.swift; sourceTree = "<group>"; };
+		0102A97D2DD7A48F008A2ED1 /* RecomendacaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendacaoView.swift; sourceTree = "<group>"; };
+		0102A97F2DD7BE0A008A2ED1 /* FichasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FichasView.swift; sourceTree = "<group>"; };
+		0102A9812DD7C1AF008A2ED1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0102A9872DD7C38C008A2ED1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		01E9949D2DDE51DD004DC82B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0102A9652DD3BCFB008A2ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0102A95F2DD3BCFB008A2ED1 = {
+			isa = PBXGroup;
+			children = (
+				0102A96A2DD3BCFB008A2ED1 /* HealthTrackerAlice */,
+				0102A9692DD3BCFB008A2ED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0102A9692DD3BCFB008A2ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0102A9682DD3BCFB008A2ED1 /* HealthTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0102A96A2DD3BCFB008A2ED1 /* HealthTrackerAlice */ = {
+			isa = PBXGroup;
+			children = (
+				0102A96B2DD3BCFB008A2ED1 /* HealthTrackerAliceApp.swift */,
+				01E9949D2DDE51DD004DC82B /* LoginView.swift */,
+				0102A96D2DD3BCFB008A2ED1 /* ContentView.swift */,
+				0102A97B2DD7A3B4008A2ED1 /* PacienteView.swift */,
+				0102A9792DD5050D008A2ED1 /* MonitoramentoView.swift */,
+				0102A97D2DD7A48F008A2ED1 /* RecomendacaoView.swift */,
+				0102A97F2DD7BE0A008A2ED1 /* FichasView.swift */,
+				0102A96F2DD3BCFC008A2ED1 /* Assets.xcassets */,
+				0102A9712DD3BCFC008A2ED1 /* Preview Content */,
+				0102A9812DD7C1AF008A2ED1 /* Model.swift */,
+				0102A9872DD7C38C008A2ED1 /* ViewModel.swift */,
+			);
+			path = HealthTrackerAlice;
+			sourceTree = "<group>";
+		};
+		0102A9712DD3BCFC008A2ED1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0102A9722DD3BCFC008A2ED1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0102A9672DD3BCFB008A2ED1 /* HealthTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0102A9762DD3BCFC008A2ED1 /* Build configuration list for PBXNativeTarget "HealthTracker" */;
+			buildPhases = (
+				0102A9642DD3BCFB008A2ED1 /* Sources */,
+				0102A9652DD3BCFB008A2ED1 /* Frameworks */,
+				0102A9662DD3BCFB008A2ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthTracker;
+			productName = HealthTrackerAlice;
+			productReference = 0102A9682DD3BCFB008A2ED1 /* HealthTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0102A9602DD3BCFB008A2ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0102A9672DD3BCFB008A2ED1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 0102A9632DD3BCFB008A2ED1 /* Build configuration list for PBXProject "HealthTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0102A95F2DD3BCFB008A2ED1;
+			productRefGroup = 0102A9692DD3BCFB008A2ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0102A9672DD3BCFB008A2ED1 /* HealthTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0102A9662DD3BCFB008A2ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0102A9732DD3BCFC008A2ED1 /* Preview Assets.xcassets in Resources */,
+				0102A9702DD3BCFC008A2ED1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0102A9642DD3BCFB008A2ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0102A9822DD7C1AF008A2ED1 /* Model.swift in Sources */,
+				0102A96E2DD3BCFB008A2ED1 /* ContentView.swift in Sources */,
+				0102A97C2DD7A3B4008A2ED1 /* PacienteView.swift in Sources */,
+				01E9949E2DDE51DD004DC82B /* LoginView.swift in Sources */,
+				0102A96C2DD3BCFB008A2ED1 /* HealthTrackerAliceApp.swift in Sources */,
+				0102A97E2DD7A48F008A2ED1 /* RecomendacaoView.swift in Sources */,
+				0102A9802DD7BE0A008A2ED1 /* FichasView.swift in Sources */,
+				0102A9882DD7C38C008A2ED1 /* ViewModel.swift in Sources */,
+				0102A97A2DD5050D008A2ED1 /* MonitoramentoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0102A9742DD3BCFC008A2ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0102A9752DD3BCFC008A2ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0102A9772DD3BCFC008A2ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthTrackerAlice/Preview Content\"";
+				DEVELOPMENT_TEAM = B87Z77Y2G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alice.HealthTrackerAlice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0102A9782DD3BCFC008A2ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthTrackerAlice/Preview Content\"";
+				DEVELOPMENT_TEAM = B87Z77Y2G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alice.HealthTrackerAlice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0102A9632DD3BCFB008A2ED1 /* Build configuration list for PBXProject "HealthTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0102A9742DD3BCFC008A2ED1 /* Debug */,
+				0102A9752DD3BCFC008A2ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0102A9762DD3BCFC008A2ED1 /* Build configuration list for PBXNativeTarget "HealthTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0102A9772DD3BCFC008A2ED1 /* Debug */,
+				0102A9782DD3BCFC008A2ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0102A9602DD3BCFB008A2ED1 /* Project object */;
+}
